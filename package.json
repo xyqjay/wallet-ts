@@ -2,12 +2,12 @@
     "name": "wallet-ts",
     "version": "0.0.1",
     "description": "",
-    "main": "dist/app.js",
+    "main": "dist/src/app.js",
     "directories": {
         "test": "tests"
     },
     "scripts": {
-        "start": "tsc && node dist/app.js",
+        "start": "tsc && node dist/src/app.js",
         "lint": "eslint . --ext .ts",
         "test": "jest"
     },
@@ -33,6 +33,7 @@
         "colors": "^1.4.0",
         "ethers": "^6.11.1",
         "micro-ed25519-hdkey": "^0.1.2",
+        "readline-sync": "^1.4.10",
         "tiny-secp256k1": "^2.2.3"
     }
 }

@@ -1,3 +1,7 @@
+#private
+.wallets/
+wallets/
+
 # Logs
 logs
 *.log
